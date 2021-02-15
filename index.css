@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(102, 101, 101);
+    font-family: Helvetica, sans-serif;
+}
+h1, h2{
+    text-align: center;
+}
+table{
+    margin: 0 auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 5px;
+}
+th, td{
+    padding: 10px;
+}
+thead{
+    background-color: firebrick;
+}
+tbody th{
+    background-color: #BCEDF6;
+}
+
+tbody tr{
+    background-color: rgb(236, 232, 232);
+    border-bottom: 1px solid rgb(0, 46, 44);
+    
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.code{
+    font-family: monospace;
+    text-decoration: none;
+}
